@@ -122,24 +122,6 @@ $this->fontdata = array(
 		'I' => "DejaVuSansMono-Oblique.ttf",
 		'BI' => "DejaVuSansMono-BoldOblique.ttf",
 		),
-	"freesans" => array(
-		'R' => "FreeSans.ttf",
-		'B' => "FreeSansBold.ttf",
-		'I' => "FreeSansOblique.ttf",
-		'BI' => "FreeSansBoldOblique.ttf",
-		),
-	"freeserif" => array(
-		'R' => "FreeSerif.ttf",
-		'B' => "FreeSerifBold.ttf",
-		'I' => "FreeSerifItalic.ttf",
-		'BI' => "FreeSerifBoldItalic.ttf",
-		),
-	"freemono" => array(
-		'R' => "FreeMono.ttf",
-		'B' => "FreeMonoBold.ttf",
-		'I' => "FreeMonoOblique.ttf",
-		'BI' => "FreeMonoBoldOblique.ttf",
-		),
 
 
 /* OCR-B font for Barcodes */
@@ -207,12 +189,14 @@ $this->fontdata = array(
 		'B' => "XB RiyazBd.ttf",
 		'I' => "XB RiyazIt.ttf",
 		'BI' => "XB RiyazBdIt.ttf",
+		'unAGlyphs' => true,
 		),
 	"xbzar" => array(
 		'R' => "XB Zar.ttf",
 		'B' => "XB Zar Bd.ttf",
 		'I' => "XB Zar It.ttf",
 		'BI' => "XB Zar BdIt.ttf",
+		'unAGlyphs' => true,
 		),
 
 
@@ -291,8 +275,6 @@ $this->BMPonly = array(
 	"dejavuserifcondensed",
 	"dejavuserif",
 	"dejavusansmono",
-	"freesans",
-	"freeserif",
 	);
 
 // These next 3 arrays do two things:
